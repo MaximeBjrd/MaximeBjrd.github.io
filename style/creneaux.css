@@ -1,0 +1,7 @@
+p {
+    margin-left: 20px;
+}
+
+p:last-of-type {
+    margin-bottom: 30px;
+}

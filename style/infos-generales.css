@@ -1,0 +1,14 @@
+p:first-of-type {
+    text-align: center;
+    font-size: 20px;
+}
+
+.container {
+    margin-bottom: 30px;
+}
+
+.banniere {
+    background-image: url("../Images/banniere.jpg");
+    background-size: cover;
+    padding-bottom: 500px;
+}

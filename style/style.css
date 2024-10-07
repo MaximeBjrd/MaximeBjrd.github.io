@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald';
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover,
+.dropdown > span:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.logo:hover {
+    opacity: 0.9;
+}
+
+nav {
+    display: inline-flex;
+    background-color: #fc5e03;
+    width: 100%;
+    font-size: 20px;
+}
+
+.menu {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+  
+.menu > li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown > span {
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown:hover .features-menu {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#fc5e03, #f78443);
+    min-width: 140px;
+    max-width: 150px;
+    border-radius: 5px;
+    padding-top: 60px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 1;
+}
+
+.features-menu {
+    display: none;
+    font-size: 15px;
+}
+  
+.features-menu li {
+    list-style: none;
+    border-bottom: 1px solid #FFF;
+    padding: 0 20px 15px 10px;
+    margin: 10px;
+}
+  
+.features-menu li:last-of-type {
+    border-bottom: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color:rgb(80, 80, 80);
+}
+
+p a {
+    color: #fc5e03;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+}

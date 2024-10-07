@@ -1,0 +1,14 @@
+.grid-partenaires {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    gap: 10px;
+}
+
+.grid-partenaires img {
+    max-width: 400px;
+    height: 70%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
